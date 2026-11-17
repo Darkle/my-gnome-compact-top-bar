@@ -14,5 +14,6 @@
   "version": 13,
   "settings-schema": "org.gnome.shell.extensions.compact-top-bar",
   "settings-schema-path": "schemas/",
-  "preferences": "prefs.js"
+  "preferences": "prefs.js",
+  "session-modes": ["user", "unlock-dialog"]
 }
