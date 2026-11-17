@@ -1,7 +1,11 @@
 # gnome-compact-top-bar
 Compact and transparent top bar for GNOME!
 
-### [Get It On GNOME Extensions!](https://extensions.gnome.org/extension/5669/compact-top-bar/)
+Forked from forked from [metehan-arslan/gnome-compact-top-bar](https://github.com/metehan-arslan/gnome-compact-top-bar). The main changes are adding: 
+```json
+  "session-modes": ["user", "unlock-dialog"]
+```
+to the `metadata.json`. The reason we added this is because when the lock screen would activate, it disables all gnome extensions, which would set the top bar back to its normal size, which would push down all the open windows slightly.
 
 _Important Note: Due to changes in gjs, latest releases are not available for GNOME <45. Please refer to the Gnome Extensions webpage for older releases._
 
