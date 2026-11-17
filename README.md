@@ -1,4 +1,4 @@
-# gnome-compact-top-bar
+# my-gnome-compact-top-bar
 Compact and transparent top bar for GNOME!
 
 Forked from forked from [metehan-arslan/gnome-compact-top-bar](https://github.com/metehan-arslan/gnome-compact-top-bar). The main changes are adding: 
